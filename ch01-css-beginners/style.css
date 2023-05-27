@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+h1 {
+    color: whitesmoke;
+}
+p{
+    background-color: gray;
+    color: white;
+}
+
+/* / External Css */
+
+#p1 {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.odd {
+    font-size: 11px;
+}
+.even {
+    font-size: 50px;
+}
