@@ -1,0 +1,22 @@
+body {
+    background-color: #333;
+    color: Whitesmoke;
+    font-size: 24px
+}
+/* / */
+
+h2 {
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: groove;
+    border-left-width: 10px;
+    border-left-color: silver;
+}
+p {
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+}
