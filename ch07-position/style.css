@@ -1,0 +1,83 @@
+/*  Better Comment */
+/*  !  */
+/*  ?  */
+/*  /  */
+/*  >  */
+/*  -   */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333;
+    color: black;
+    font-size: 17px
+}
+header h1 {
+    text-align: center;
+    border: 10px black solid;
+    padding: 10px;
+    /* margin: 10px; */
+    
+}
+
+footer {
+    border: 10px black solid;
+    padding: 10px; 
+}
+footer p {
+    text-align: center;
+    
+    
+}
+
+hr {
+    border: black 3px dashed;
+    margin: 5px;
+}
+
+/*  */
+
+#box1 {
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+
+    /* / Static - default or normal state */
+    /* position: static; */
+
+    /* / relative - move object from some point of origin of box - for this box ' top left ' of box  */
+    /* position: relative;
+    top: 150px;
+    left: 150px; */
+
+    /* / put box 02 in box 01 center */
+    /* position: relative;
+    left: 250px; */
+
+    /* / fixed - fixed will stay in the position of your viewport, even when you scroll it will stay wherever you set it  */
+    /* position: fixed;
+    top: 0px;
+    right: 0px; */
+
+    /* / sticky - anything that has a sticky position will stick to an edge of your viewport when you scroll past*/
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    
+}
+
+#box2 {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+
+    /* / absolute - element will be taken out of the flow of the document 
+    / move object from some point of origin of box - for this box ' top left ' of parent if there is no parent then for 'top left ' of viewport */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
