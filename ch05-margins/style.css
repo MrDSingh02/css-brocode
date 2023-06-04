@@ -1,0 +1,78 @@
+/*  Better Comment */
+/*  !  */
+/*  ?  */
+/*  /  */
+/*  >  */
+/*  -   */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333;
+    color: black;
+    font-size: 24px
+}
+header h1 {
+    text-align: center;
+    border: 10px black solid;
+    padding: 10px;
+    /* margin: 10px; */
+    
+}
+
+footer {
+    border: 10px black solid;
+    padding: 10px; 
+}
+footer p {
+    text-align: center;
+    
+    
+}
+
+/*  */
+
+#box1 {
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    color: #000;
+
+    /* margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px; */
+
+    /* margin: 50px; */
+
+    /* / Setting margin in % */
+    /* margin: 50%;  */ 
+
+    /* / put element at centre */
+    /* margin: auto; */ 
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    /* / put element on right Side */
+    /* margin-left: auto; */  
+
+    /* / Put Element on Left Side */
+    /* margin-right: auto; */ 
+
+
+
+}
+
+#box2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: dodgerblue;
+    color: #333;
+}
+
