@@ -1,0 +1,87 @@
+/*  Better Comment */
+/*  !  */
+/*  ?  */
+/*  /  */
+/*  >  */
+/*  -   */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333;
+    color: black;
+    font-size: 17px
+}
+header h1 {
+    text-align: center;
+    border: 10px black solid;
+    padding: 10px;
+    /* margin: 10px; */
+    
+}
+
+footer {
+    border: 10px black solid;
+    padding: 10px; 
+}
+footer p {
+    text-align: center;
+    
+    
+}
+
+hr {
+    border: black 3px dashed;
+    margin: 5px;
+}
+
+/*  */
+
+/* / Anchor or link */
+a:link {
+    color: lawngreen;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: tomato;
+}
+a:active {
+    color: yellow;
+}
+
+/* / button */
+button:hover {
+    background-color: lightskyblue;
+}
+button:active {
+    background-color: yellow;
+}
+
+/* / ol */
+
+ol {
+    list-style: decimal;
+    /* border: 1px solid tomato; */
+    padding: 10px;
+    /* text-align: center; */
+    width: 50%;
+    margin: auto;
+
+}
+
+/* li:nth-child(1) {
+    background-color: yellowgreen;
+} */
+/* li:nth-child(even) {
+    background-color: skyblue;
+} */
+/* li:nth-child(odd) {
+    background-color: powderblue;
+} */
+li:nth-child(5n+1) {
+    background-color: aqua;
+}
