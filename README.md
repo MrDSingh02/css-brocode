@@ -20,7 +20,7 @@ CSS full course for beginners
 * #14 flexbox 💪
 * #15 overflow 🌊
 * #16 display property 🧱
-
+* #17 height and width 📏
 
 ---
 
