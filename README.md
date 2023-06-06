@@ -19,6 +19,7 @@ CSS full course for beginners
 * #13 navigation bar 🗺️
 * #14 flexbox 💪
 * #15 overflow 🌊
+* #16 display property 🧱
 
 
 ---
