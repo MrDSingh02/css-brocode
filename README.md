@@ -16,6 +16,9 @@ CSS full course for beginners
 * #10 (00:43:43) icons 🏠
 * #11 (00:46:45) transform 🔄
 * #12 (00:50:54) animation 🎞️
+* #13 navigation bar 🗺️
+* #14 flexbox 💪
+* #15 icons 💯
 
 
 ---
