@@ -16,3 +16,11 @@ CSS full course for beginners
 * #10 (00:43:43) icons 🏠
 * #11 (00:46:45) transform 🔄
 * #12 (00:50:54) animation 🎞️
+
+
+---
+
+## Resouces
+
+1. Font Awesome 
+> For Some free icons
