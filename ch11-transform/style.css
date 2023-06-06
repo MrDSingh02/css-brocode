@@ -1,0 +1,89 @@
+/*  Better Comment */
+/*  !  */
+/*  ?  */
+/*  /  */
+/*  >  */
+/*  -   */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333;
+    color: black;
+    font-size: 17px
+}
+header h1 {
+    text-align: center;
+    border: 10px black solid;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    
+}
+
+footer {
+    border: 10px black solid;
+    /* padding: 10px;  */
+}
+footer p {
+    text-align: center;
+    
+    
+}
+
+
+header{
+    height: 10vh;
+}
+
+footer {
+    height: 3vh;
+}
+
+main {
+    color: whitesmoke;
+    width: 90%;
+    height: 85vh;
+    margin: auto;
+    /* margin-top: 0; */
+    /* padding: 0; */
+}
+
+/*  */
+
+#box1 {
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 225px;
+    text-align: center;
+    background: lightskyblue;
+
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+    /* transform: translate(50px,40px); */
+
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(180deg); */
+
+    /* transform: scaleX(3); */
+    /* transform: scaleY(3); */
+    /* transform: scale(2,2); */
+
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+    /* transform: skew(20deg,20deg); */
+
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    /* 
+    / matrix Combines the following
+    / scaleX()
+    / skewY()
+    / skewX()
+    / scaleY()
+    / translateX()
+    / translateY()
+    */
+}
