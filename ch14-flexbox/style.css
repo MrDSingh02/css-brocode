@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>CH</title>
-</head>
-<body>
-    <header>
-        <h1>CH</h1> 
-        <!--  -->
-    </header>
-    
-    <main>
-
-    </main>
-
-    <footer>
-        <p>&lt;&lt; &copy; Copyright Lucifer &gt;&gt; </p>
-    </footer>
-</body>
-</html>
-
-<!-- CSS
 /*  Better Comment */
 /*  !  */
 /*  ?  */
@@ -35,13 +9,11 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: #333;
     color: black;
     font-size: 17px
 }
-
 header h1 {
     text-align: center;
     border: 10px black solid;
@@ -54,12 +26,12 @@ footer {
     border: 10px black solid;
     /* padding: 10px;  */
 }
-
 footer p {
     text-align: center;
     
     
 }
+
 
 header{
     height: 10vh;
@@ -77,15 +49,34 @@ main {
     /* margin-top: 0; */
     /* padding: 0; */
 }
-
 /*  */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #444;
+    height: 400px;
 
+    /* flex-direction: column-reverse;
+    width: 110px; */
 
- -->
+    /* justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around; */
 
-<!-- Better Comment -->
-<!-- ! -->
-<!-- ? -->
-<!-- / -->
-<!-- > -->
-<!-- - -->
+    /* align-items: center;
+    align-items: flex-end; */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+    background-color: #999;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: 5px;
+}
