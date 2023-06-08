@@ -1,0 +1,58 @@
+/*  Better Comment */
+/*  !  */
+/*  ?  */
+/*  /  */
+/*  >  */
+/*  -   */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: black;
+    font-size: 17px
+}
+
+header h1 {
+    text-align: center;
+    border: 10px black solid;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    
+}
+
+footer {
+    border: 10px black solid;
+    /* padding: 10px;  */
+}
+
+footer p {
+    text-align: center;    
+}
+
+header{
+    height: 10vh;
+}
+
+main {
+    color: rgb(233, 50, 50);
+    width: 90%;
+    height: 85vh;
+    margin: auto;
+    /* margin-top: 0; */
+    /* padding: 0; */
+}
+
+/*  */
+
+#container {
+    border: 2px solid;
+}
+
+#container + p {
+    background-color: hsl(60, 100%, 70%);
+}
